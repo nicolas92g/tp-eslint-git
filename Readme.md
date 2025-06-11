@@ -24,3 +24,20 @@ après corrections :
 (base)  nicolas  robert ~/Documents/ESGI/2024-2025/git/eslint/tp-eslint-git 
 ```
 
+GITHUB ACTION
+```
+/home/runner/work/tp-eslint-git/tp-eslint-git/index.js
+Error:    7:7   error  'unusedVar' is assigned a value but never used  no-unused-vars
+Error:   19:7   error  'message' is assigned a value but never used    no-unused-vars
+Error:   21:5   error  Unexpected constant condition                   no-constant-condition
+Error:   25:7   error  'tableau' is assigned a value but never used    no-unused-vars
+Error:   36:10  error  'toutFaire' is defined but never used           no-unused-vars
+Error:   56:7   error  'd' is assigned a value but never used          no-unused-vars
+Error:   58:10  error  'fetchData' is defined but never used           no-unused-vars
+Error:   63:7   error  'nombres' is assigned a value but never used    no-unused-vars
+Error:   67:1   error  Unexpected 'debugger' statement                 no-debugger
+
+✖ 9 problems (9 errors, 0 warnings)
+
+Error: Process completed with exit code 1.
+```
